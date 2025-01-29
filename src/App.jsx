@@ -87,13 +87,15 @@ function App() {
     //     { name: "Madina", salary: 4000000 },
     //     { name: "Sardor", salary: 2500000 },
     // ];
-    // workers.map((item) => {
+    // const x = workers.map((item) => {
     //     if (item.salary > 3000000) {
-    //         const secondArr = [{ position: "juda kam" }];
-    //         workers.concat(secondArr);
+    //         return { ...item, position: 'worker' }
+    //     }
+    //     else {
+    //         return item
     //     }
     // });
-    // console.log(workers);
+    // console.log(x);
     // 10-topshiriq /////////////////////////////////////////////////////
     // const products = [
     //     { name: "Telefon", price: 1200000 },
